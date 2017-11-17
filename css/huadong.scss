@@ -1,0 +1,33 @@
+html{
+    height:100%;
+    width:100%;
+    body{
+        height:100%;
+        margin:0;
+         overflow: hidden;
+        position: relative;
+        .box{
+            width:400%;
+            height:400px;
+            
+           
+            div{
+                height:400px;   
+                width: 25%;
+                 float: left;
+                &:nth-child(1){
+                    background: #1E90FF;
+                }
+                 &:nth-child(2){
+                    background:greenyellow;
+                }
+                 &:nth-child(3){
+                    background:lightsalmon;
+                }
+                 &:nth-child(4){
+                    background:peru;
+                }
+            }
+        }
+    }
+}
